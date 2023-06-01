@@ -10,7 +10,7 @@ jobs:
         submodules: 'recursive'
     - name: cache-vulkansdk
       id: cache-vulkansdk
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: "1.2.176.1"
         key: vulkansdk-linux-x86_64-1.2.176.1
